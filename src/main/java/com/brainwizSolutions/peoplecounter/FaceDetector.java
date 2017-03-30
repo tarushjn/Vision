@@ -27,7 +27,7 @@ public class FaceDetector {
                         Collections.singletonList(
                                 new AnnotateImageRequest()
                                         .setImage(new Image().encodeContent(image))
-                                        .setFeatures(Collections.singletonList(new Feature().setType("FACE_DETECTION").setMaxResults(10)))
+                                        .setFeatures(Collections.singletonList(new Feature().setType("FACE_DETECTION").setMaxResults(100)))
                         ));
         Vision.Images.Annotate annotate = vision.images().annotate(batchRequest);
         annotate.setDisableGZipContent(true);

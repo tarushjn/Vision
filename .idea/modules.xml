@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/vision-face-detection.iml" filepath="$PROJECT_DIR$/vision-face-detection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/people-counter.iml" filepath="$PROJECT_DIR$/.idea/modules/people-counter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/people-counter_main.iml" filepath="$PROJECT_DIR$/.idea/modules/people-counter_main.iml" group="people-counter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/people-counter_test.iml" filepath="$PROJECT_DIR$/.idea/modules/people-counter_test.iml" group="people-counter" />
     </modules>
   </component>
 </project>
